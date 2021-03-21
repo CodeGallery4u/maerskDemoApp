@@ -1,0 +1,176 @@
+body {
+  font-family: "Abel";
+  font-size: 22px;
+  margin: 0;
+}
+.container-desktop {
+  text-align: center;
+  justify-content: center;
+  width: 960px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 200px;
+  color: #efefef;
+  align-items: center;
+  background: #efefef;
+  font-weight: bold;
+}
+/* .container > div {
+  border: 1px solid;
+} */
+.header-desktop {
+  max-width: 960;
+  justify-content: center;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 10px;
+  grid-area: 1 / 1 / 1 / span 4;
+}
+.grid-items-desktop {
+  align-items: center;
+  font-size: 45px;
+}
+.position1-desktop {
+  grid-area: 2 / 1;
+}
+.position2-desktop {
+  grid-area: 2 / 2;
+}
+.position3-desktop {
+  grid-area: 2 / 3;
+}
+
+.position4-desktop {
+  grid-area: 3 / 1;
+}
+.position5-desktop {
+  grid-area: 3 / 2;
+}
+.position6-desktop {
+  grid-area: 3 / 3;
+}
+
+.position7-desktop {
+  grid-area: 4 / 1;
+}
+
+.position8-desktop {
+  grid-area: 4 / 2;
+}
+
+.position9-desktop {
+  grid-area: 4 / 3;
+}
+
+.btnGroup-desktop {
+  grid-area: 2 / 4;
+}
+
+.btn {
+  background: #73c3dc;
+  color: #efefef;
+  width: 100px;
+  border-radius: 5px;
+  height: 30px;
+  margin: 5px;
+  font-size: medium;
+}
+.footer-desktop {
+  grid-area: 5 / 1 / 5 / span 4;
+  color: #333333;
+}
+
+/* Mobile Specific classes */
+
+.header-mobile {
+  background: #333333;
+  color: #efefef;
+  grid-area: 1;
+  height: 30px;
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+.grid-items-mobile {
+  align-items: center;
+  font-size: 15px;
+}
+.container-mobile {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+
+  justify-content: center;
+  width: 375px;
+  gap: 5px;
+  color: #333333;
+  background: none;
+}
+
+.btnGroup-mobile {
+  grid-area: 2;
+}
+
+.position1-mobile {
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #efefef;
+  grid-area: 3;
+}
+.position2-mobile {
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #efefef;
+  grid-area: 4;
+}
+.position3-mobile {
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #efefef;
+  /* border-right: 11px solid #ffffff; */
+  grid-area: 5;
+}
+
+.position4-mobile {
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #efefef;
+  grid-area: 6;
+}
+.position5-mobile {
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #efefef;
+  grid-area: 7;
+}
+.position6-mobile {
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #efefef;
+  grid-area: 8;
+}
+
+.position7-mobile {
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #efefef;
+  grid-area: 9;
+}
+
+.position8-mobile {
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #efefef;
+  grid-area: 10;
+}
+
+.position9-mobile {
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #efefef;
+  grid-area: 11;
+}
+
+.footer-mobile {
+  grid-area: 12;
+}
